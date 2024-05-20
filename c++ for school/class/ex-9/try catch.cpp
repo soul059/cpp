@@ -1,19 +1,20 @@
 #include<iostream>
 using namespace  std;
 
+int devision(double x, double y){
+    if (y==0)
+    {
+        throw "Math Error";
+    }
+    return x/y;
+}
 
 int main(){
-    int a=1,b=0;
+    double a=1,b=0;
+    
     try
     {
-        if (b==0)
-        {
-            throw "this is wrong input";
-        }
-        else{
-            cout<<a/b<<endl;
-        }
-        
+        devision(a,b);
     }
     catch(const char *x)
     {
