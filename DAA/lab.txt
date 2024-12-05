@@ -1,0 +1,15 @@
+time comand in linux
+    gcc toh.c
+    time./a.out - real, sys, user 
+clock_t data type
+    <time.h> double t_d;
+    clock_t s,e;
+    s = clock();
+    tohe = cloclk();
+    td = double(e-s)/CLOCKS.PER.SEC;
+gprof tool
+    gcc in bilt tool for time analises
+
+    gcc -pd toh.clock //it will give output in binary wihich called gmon.out
+    ./a.out
+    gprof > `name.txt`
