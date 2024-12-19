@@ -10,6 +10,6 @@ clock_t data type
 gprof tool
     gcc in bilt tool for time analises
 
-    gcc -pd toh.clock //it will give output in binary wihich called gmon.out
+    gcc -pg toh.clock //it will give output in binary wihich called gmon.out
     ./a.out
     gprof > `name.txt`
